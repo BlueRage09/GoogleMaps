@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".HomeActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Family"
+        android:textColor="#fff"
+        android:background="@drawable/roundbutton"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/profession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Profession"
+        android:textColor="#fff"
+        android:background="@drawable/roundbutton"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/travel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:textColor="#fff"
+        android:text="Travels"
+        android:background="@drawable/roundbutton"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Education"
+        android:textColor="#fff"
+        android:background="@drawable/roundbutton"/>
+
+
+</RelativeLayout>
